@@ -1,0 +1,55 @@
+body {
+	margin:40px auto;
+	line-height:1.6;
+	font-size:18px;
+	color:#444;
+	padding:0 10px
+}
+
+label.block {
+	display: block;
+}
+
+h1 {
+	color:darkolivegreen;
+}
+
+h1:hover {
+	color: firebrick;
+}
+
+h2 {
+	color: green;
+}
+
+thead {
+	background-color: teal;
+	color: white;	
+}
+
+tbody tr:nth-child(even) {
+	background-color: peachpuff;
+}
+
+table, th, td {
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+nav, ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightgray;
+}
+nav, ul, li {
+	float: left;
+	display: block;
+	color: blue;
+	text-align: center;
+	padding: 1em 1em;
+	text-decoration: none;
+}

@@ -1,0 +1,46 @@
+body{
+    margin:40px auto;
+    max-width:700px;
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    padding:0 10px
+}
+h1,h2,h3 {
+    line-height:1.2
+}
+label.block {
+    display: block;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+
+/* navigation menu stuff */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em 1em;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: darkgray;
+}
+

@@ -1,0 +1,10 @@
+Used for auto incrementing the primary keys of the IDs for the location, user, and review - https://www.sqlite.org/faq.html#q1
+
+Used for finding valid dates for Sqlite - https://www.sqlite.org/datatype3.html
+
+Used for syntax for foreign keys to connect tables - https://www.sqlitetutorial.net/sqlite-foreign-key/
+https://sqlite.org/foreignkeys.html
+
+Used for joining to get info from different tables with one select statement - https://www.sqlitetutorial.net/sqlite-join/
+
+Used for keeping the $_GET variables across reloading the page in the viewReviews.php file - https://stackoverflow.com/questions/14409354/how-do-i-place-a-php-variable-as-text-in-a-hidden-input-html-input
